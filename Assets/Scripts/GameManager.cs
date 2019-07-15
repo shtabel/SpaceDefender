@@ -42,7 +42,8 @@ public class GameManager : MonoBehaviour
       if (Input.GetButtonDown("Cancel"))
          Application.Quit();
       if (player != null && !player.isActiveAndEnabled)
-         Debug.Log("LOH!");
+         SceneManager.LoadScene("SampleScene");
+         //Debug.Log("LOH!");
    }
    
    public void AddScore(int x)

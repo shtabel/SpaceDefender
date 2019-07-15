@@ -1852,6 +1852,11 @@ PrefabInstance:
       propertyPath: hpSlider
       value: 
       objectReference: {fileID: 1630577409}
+    - target: {fileID: 3899722992686268061, guid: 9863f4780b00fe443945bdb24ace1cd6,
+        type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3899722992406438064, guid: 9863f4780b00fe443945bdb24ace1cd6,
         type: 3}
       propertyPath: m_Materials.Array.size

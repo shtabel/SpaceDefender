@@ -12,6 +12,9 @@ public class EnemyScript : MonoBehaviour
    private int ticks = 0;
 
    private float destY = 0;
+   private float leftOffset = 0;
+   private float rightOffset = 0;
+
    public int level = 0;
 
    private int health = 20;
@@ -21,7 +24,7 @@ public class EnemyScript : MonoBehaviour
    void Start()
    {
       rb2d = GetComponent<Rigidbody2D> ();
-      destY = Random.Range(0f, 2.3f);
+      //destY = Random.Range(0f, 2.3f);
       switch (level)
       {
          case 1:
@@ -46,7 +49,7 @@ public class EnemyScript : MonoBehaviour
          yy = -speed;
       rb2d.velocity = new Vector2(xx*moveSpeed, yy*moveSpeed);
 
-      if (transform.position.x <= -4 && goingLeft || transform.position.x >= 4 && !goingLeft)
+      if (transform.position.x <= -4+leftOffset && goingLeft || transform.position.x >= 4-rightOffset && !goingLeft)
          goingLeft = !goingLeft;
 
       if (speed < maxSpeed) // speeding up
@@ -77,8 +80,23 @@ public class EnemyScript : MonoBehaviour
       gm.stageManager.KillEnemy(this);
    }
 
-   public void Drop()
+   public void SetOffsets(int h, int left, int right)
    {
-      destY = Random.Range(0f, 2.3f);
+      destY = h*0.5f;
+      leftOffset = left;
+      rightOffset = right;
    }
+
+   /*
+   private void OnTriggerEnter2D(Collider2D hitInfo)
+   {
+      EnemyScript target = hitInfo.GetComponent<EnemyScript>();
+      if (target != null)
+      {
+         Debug.Log(hitInfo.gameObject.name + " : " + gameObject.name + " : " + Time.time);
+         goingLeft = !goingLeft;
+      }
+      
+   }*/
+
 }
