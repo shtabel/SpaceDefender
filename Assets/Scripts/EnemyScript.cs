@@ -10,6 +10,7 @@ public class EnemyScript : MonoBehaviour
    private bool goingLeft = true;
    private int tickToSpeedup = 300;
    private int ticks = 0;
+   private bool canShoot = false;
 
    private float destY = 0;
    private float leftOffset = 0;
@@ -20,6 +21,13 @@ public class EnemyScript : MonoBehaviour
    private int health = 20;
    private int maxHealth = 20;
    public GameObject deathEffect;
+
+   // shooting
+   public EnemyWeapon weapon;
+   private int ticksToShoot;
+   private int maxTicksToShoot = 300;
+   private int minTicksToShoot = 100;
+   // -shooting
 
    void Start()
    {
@@ -36,6 +44,7 @@ public class EnemyScript : MonoBehaviour
             maxHealth = 40;
          break;
       }
+      ticksToShoot = Random.Range(0, maxTicksToShoot);
 
    }
    
@@ -61,6 +70,20 @@ public class EnemyScript : MonoBehaviour
             ticks = 0;
          }
       }
+
+      // shooting
+      if (canShoot) {
+         if (ticksToShoot >0)
+            ticksToShoot -=1;
+         else if (ticksToShoot <=0 && Random.Range(0, 100) < 20)
+         {
+            if (maxTicksToShoot>minTicksToShoot)
+               maxTicksToShoot -=1;
+            ticksToShoot = maxTicksToShoot;
+            weapon.Shoot(level);
+         }
+      } 
+      // -shooting
    }
 
    public void TakeDamage(int damage)
@@ -80,11 +103,16 @@ public class EnemyScript : MonoBehaviour
       gm.stageManager.KillEnemy(this);
    }
 
-   public void SetOffsets(int h, int left, int right)
+   public void SetOffsets(float h, int left, int right)
    {
-      destY = h*0.5f;
+      destY = h*0.5f-1;
       leftOffset = left;
       rightOffset = right;
+   }
+
+   public void setIsFront(bool isFront)
+   {
+      canShoot = isFront;
    }
 
    /*

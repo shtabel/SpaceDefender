@@ -138,6 +138,7 @@ MonoBehaviour:
   level: 2
   deathEffect: {fileID: 7091312619143522633, guid: b8f01353f50599647becafcb87350277,
     type: 3}
+  weapon: {fileID: 6154651609414791587}
 --- !u!114 &6154651609414791587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,8 +154,6 @@ MonoBehaviour:
   firepoint: {fileID: 5191940272072312377}
   bombPrefab: {fileID: 1745562187308642509, guid: b333cc75930cc7d44bed382ff472e67c,
     type: 3}
-  level: 2
-  damage: 10
 --- !u!1 &5932864184632361828
 GameObject:
   m_ObjectHideFlags: 0
