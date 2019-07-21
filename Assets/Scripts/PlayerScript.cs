@@ -23,19 +23,15 @@ public class PlayerScript : MonoBehaviour
    void Update()
    {
       float xx = Input.GetAxis ("Horizontal");
-      if (transform.position.x <= -3.5 && xx<0 || transform.position.x >= 3.5 && xx>0)
+      if (transform.position.x <= -3.2f && xx<0 || transform.position.x >= 3.2f && xx>0)
          xx = 0;
-
-      float yy = Input.GetAxis ("Vertical");
-      if (transform.position.y <= -2.2 && yy<0 || transform.position.y >= -1 && yy>0)
-         yy = 0;
 
       if (moveSpeed < maxSpeed && xx !=0)
          moveSpeed += Time.deltaTime;
       else if (moveSpeed>minSpeed && xx == 0)
          moveSpeed -= Time.deltaTime;
 
-      rb2d.velocity = new Vector2(xx*moveSpeed, yy*maxSpeed);
+      rb2d.velocity = new Vector2(xx*moveSpeed, 0);
         
    }
 

@@ -5,7 +5,8 @@ public class EnemyScript : MonoBehaviour
 
    private float moveSpeed = 1f;
    private float speed = 0.1f;
-   private float maxSpeed = 1f;
+   private float speedOffset = 0.05f;
+   private float maxSpeed = 1.8f;
    private Rigidbody2D rb2d;
    private bool goingLeft = true;
    private int tickToSpeedup = 300;
@@ -58,18 +59,20 @@ public class EnemyScript : MonoBehaviour
          yy = -speed;
       rb2d.velocity = new Vector2(xx*moveSpeed, yy*moveSpeed);
 
-      if (transform.position.x <= -4+leftOffset && goingLeft || transform.position.x >= 4-rightOffset && !goingLeft)
+      if (transform.position.x <= -3.2f+leftOffset && goingLeft || transform.position.x >= 3.2f-rightOffset && !goingLeft)
          goingLeft = !goingLeft;
 
+      /* speedup by time */
       if (speed < maxSpeed) // speeding up
       {
          ticks +=1;
          if (ticks>=tickToSpeedup)
          {
-            speed += 0.1f;
+            speed += speedOffset;
             ticks = 0;
          }
       }
+      /* */
 
       // shooting
       if (canShoot) {
@@ -100,7 +103,7 @@ public class EnemyScript : MonoBehaviour
       health = maxHealth;
       speed = Random.Range(0.1f, maxSpeed);
       GameManager gm = GameManager.instance;
-      gm.stageManager.KillEnemy(this);
+      StageManager.instance.KillEnemy(this);
    }
 
    public void SetOffsets(float h, int left, int right)
@@ -110,21 +113,21 @@ public class EnemyScript : MonoBehaviour
       rightOffset = right;
    }
 
+   public void SpeedUp()
+   {
+      if (speed < maxSpeed)
+      {
+         speed += speedOffset;
+      }
+      if (minTicksToShoot>=10){
+         maxTicksToShoot -= 10;
+         minTicksToShoot -= 10;
+      }
+   }
+
    public void setIsFront(bool isFront)
    {
       canShoot = isFront;
    }
-
-   /*
-   private void OnTriggerEnter2D(Collider2D hitInfo)
-   {
-      EnemyScript target = hitInfo.GetComponent<EnemyScript>();
-      if (target != null)
-      {
-         Debug.Log(hitInfo.gameObject.name + " : " + gameObject.name + " : " + Time.time);
-         goingLeft = !goingLeft;
-      }
-      
-   }*/
 
 }
