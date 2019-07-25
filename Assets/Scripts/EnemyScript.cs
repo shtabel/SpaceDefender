@@ -68,7 +68,7 @@ public class EnemyScript : MonoBehaviour
          ticks +=1;
          if (ticks>=tickToSpeedup)
          {
-            speed += speedOffset;
+            SpeedUp();
             ticks = 0;
          }
       }
@@ -83,7 +83,8 @@ public class EnemyScript : MonoBehaviour
             if (maxTicksToShoot>minTicksToShoot)
                maxTicksToShoot -=1;
             ticksToShoot = maxTicksToShoot;
-            weapon.Shoot(level);
+            if (transform.position.y<=2.5f)
+               weapon.Shoot(level);
          }
       } 
       // -shooting
@@ -102,11 +103,10 @@ public class EnemyScript : MonoBehaviour
       gameObject.SetActive(false);
       health = maxHealth;
       speed = Random.Range(0.1f, maxSpeed);
-      GameManager gm = GameManager.instance;
       StageManager.instance.KillEnemy(this);
    }
 
-   public void SetOffsets(float h, int left, int right)
+   public void SetOffsets(float h, float left, float right)
    {
       destY = h*0.5f-1;
       leftOffset = left;
@@ -119,9 +119,9 @@ public class EnemyScript : MonoBehaviour
       {
          speed += speedOffset;
       }
-      if (minTicksToShoot>=10){
-         maxTicksToShoot -= 10;
-         minTicksToShoot -= 10;
+      if (minTicksToShoot>=20){
+         maxTicksToShoot -= 20;
+         minTicksToShoot -= 20;
       }
    }
 

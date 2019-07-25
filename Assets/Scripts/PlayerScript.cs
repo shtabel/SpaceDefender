@@ -5,7 +5,7 @@ public class PlayerScript : MonoBehaviour
 {
 
    private float moveSpeed = 1f;
-   private float maxSpeed = 2.5f;
+   private float maxSpeed = 2f;
    private float minSpeed = 1f;
    private Rigidbody2D rb2d;
 
@@ -20,16 +20,16 @@ public class PlayerScript : MonoBehaviour
       gm.player = this;
    }
    
-   void Update()
+   void FixedUpdate()
    {
       float xx = Input.GetAxis ("Horizontal");
       if (transform.position.x <= -3.2f && xx<0 || transform.position.x >= 3.2f && xx>0)
          xx = 0;
 
       if (moveSpeed < maxSpeed && xx !=0)
-         moveSpeed += Time.deltaTime;
+         moveSpeed += Time.fixedDeltaTime;
       else if (moveSpeed>minSpeed && xx == 0)
-         moveSpeed -= Time.deltaTime;
+         moveSpeed -= Time.fixedDeltaTime;
 
       rb2d.velocity = new Vector2(xx*moveSpeed, 0);
         

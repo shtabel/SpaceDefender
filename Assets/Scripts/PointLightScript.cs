@@ -3,6 +3,10 @@ using UnityEngine.Experimental.Rendering.LWRP;
 
 public class PointLightScript : MonoBehaviour
 {
+   
+   public float minInternsity = 0.5f;
+   public float maxInternsity = 1f;
+
 
    private Light2D l2d;
    private bool lighting;
@@ -11,7 +15,7 @@ public class PointLightScript : MonoBehaviour
    private void Start()
    {
       l2d = GetComponent<Light2D> ();
-      l2d.intensity = 1;
+      l2d.intensity = minInternsity;
       lighting = true;
    }
 
@@ -21,13 +25,13 @@ public class PointLightScript : MonoBehaviour
       if (lighting)
       {
          l2d.intensity += deltaIntensity;
-         if (l2d.intensity>=1f)
+         if (l2d.intensity>=maxInternsity)
             lighting = false;
       }
       else
       {
          l2d.intensity -= deltaIntensity;
-         if (l2d.intensity<=0.5f)
+         if (l2d.intensity<=minInternsity)
             lighting = true;
       }
         

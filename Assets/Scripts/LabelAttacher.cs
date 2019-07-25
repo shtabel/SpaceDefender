@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class LabelAttacher : MonoBehaviour
@@ -16,8 +17,11 @@ public class LabelAttacher : MonoBehaviour
          GameManager.instance.restartSplash = gameObject;
       else if (this.name=="FinalScore")
          GameManager.instance.finalScoreLabel = label;
-      else if (this.name=="BigLabel"){
+      else if (this.name=="BigLabel")
          GameManager.instance.bigLabel = label;
+      else if (this.name=="BossSlider"){
+         StageManager.instance.bossHpSlider = this.gameObject.GetComponent<Slider>();
+         this.gameObject.SetActive(false);
       }
 
    }

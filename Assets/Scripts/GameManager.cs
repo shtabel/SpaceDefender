@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
    public static GameManager instance = null;              //Static instance of GameManager which allows it to be accessed by any other script.
    public GameObject enemy;
    public GameObject enemy2;
+   public GameObject[] bosses;
    public PlayerScript player;
    public TextMeshProUGUI scoreLabel;
    public TextMeshProUGUI levelLabel;
@@ -70,10 +71,18 @@ public class GameManager : MonoBehaviour
       StageManager.instance.InitGame(level);
    }
 
+   public void StartBoss()
+   {
+      StageManager.instance.InitBoss(bosses[0]);
+   }
+
    IEnumerator NextLevel(){
       level +=1;
       yield return new WaitForSeconds(2f);
-      StageManager.instance.InitGame(level);
+      if (level!=4)
+         if (level == 3)
+            StageManager.instance.spawnBoss = true;
+         StageManager.instance.InitGame(level);
    }
 
    IEnumerator Restart()
