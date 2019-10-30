@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: f5ebb7d6e69ec424e926adb64a3476c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3957844613570120034
+    second: BSOD_bot_0
+  - first:
+      213: -7161602434901092567
+    second: BSOD_bot_1
+  - first:
+      213: 462633428891483315
+    second: BSOD_bot_2
+  - first:
+      213: -6810405100331211884
+    second: BSOD_bot_3
+  - first:
+      213: -4408421226136730823
+    second: BSOD_bot_4
+  - first:
+      213: 6776020987323340024
+    second: BSOD_bot_5
+  - first:
+      213: -6401824532727489813
+    second: BSOD_bot_6
+  - first:
+      213: 5199123203476465164
+    second: BSOD_bot_7
+  - first:
+      213: 3296395838602159692
+    second: BSOD_bot_8
+  - first:
+      213: -3358059924445323580
+    second: BSOD_bot_9
+  - first:
+      213: -1331578692657931000
+    second: BSOD_bot_10
+  - first:
+      213: -8778194175907865440
+    second: BSOD_bot_11
+  - first:
+      213: -1847179014425163704
+    second: BSOD_bot_12
+  - first:
+      213: 3056151828619860995
+    second: BSOD_bot_13
+  - first:
+      213: 8867728133419693592
+    second: BSOD_bot_14
+  - first:
+      213: -5936838545788807226
+    second: BSOD_bot_15
+  - first:
+      213: -9178208949503032015
+    second: BSOD_bot_16
+  - first:
+      213: -9058685090601030185
+    second: BSOD_bot_17
+  - first:
+      213: -1539895022802316127
+    second: BSOD_bot_18
+  - first:
+      213: 8958995801096850643
+    second: BSOD_bot_19
+  - first:
+      213: 3966622740040797870
+    second: BSOD_bot_20
+  - first:
+      213: 5980682805776802596
+    second: BSOD_bot_21
+  - first:
+      213: -7242789413165797965
+    second: BSOD_bot_22
+  - first:
+      213: 7819492785901878762
+    second: BSOD_bot_23
+  - first:
+      213: -5972315027264043789
+    second: BSOD_bot_24
+  - first:
+      213: -4605688131459007418
+    second: BSOD_bot_25
+  - first:
+      213: 4575422452492516661
+    second: BSOD_bot_26
+  - first:
+      213: 1800285650696647510
+    second: BSOD_bot_27
+  - first:
+      213: 5409684396327342768
+    second: BSOD_bot_28
+  - first:
+      213: -538756171468710941
+    second: BSOD_bot_29
+  - first:
+      213: 8180314059283412561
+    second: BSOD_bot_30
+  - first:
+      213: -7205891283260276887
+    second: BSOD_bot_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BSOD_bot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2690769e97f544b9160bfc6260363b
+      internalID: 3957844613570120034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ebeabeba0bbf04582ced10aa2c4b90
+      internalID: -7161602434901092567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41367c6076394da46b966f12e6af1ea9
+      internalID: 462633428891483315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b76bc1ea6ce9b4fa2094b0651ed04a
+      internalID: -6810405100331211884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2aebac74ffced4d9ed5e1e9c1b9ae9
+      internalID: -4408421226136730823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c7623ed2f871e4982f43bdbd6d4d7f
+      internalID: 6776020987323340024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f73f35992bb314f80454b946156335
+      internalID: -6401824532727489813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9172607e5a223b41b764b5a7fb98472
+      internalID: 5199123203476465164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec2ebf17875d8b4d8356e463eff3672
+      internalID: 3296395838602159692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefd3e2722d3a984ea0ffe1686e06fb1
+      internalID: -3358059924445323580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc60b4d2723c8340bf525d2deb67dc7
+      internalID: -1331578692657931000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b71e1be484b33409947a9e503a6b04
+      internalID: -8778194175907865440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_12
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabb3b997be4c8443a2c4be5b66fc827
+      internalID: -1847179014425163704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9cde66cccadc8468425171164ba73d
+      internalID: 3056151828619860995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_14
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747abdeeaca294e43bb936b54f95f3e1
+      internalID: 8867728133419693592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_15
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e272fc2c049f1c64d9538fc21882c8af
+      internalID: -5936838545788807226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5553bd86331fc84cbdfd7658232ef41
+      internalID: -9178208949503032015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_17
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f747cf84aa9a445b4f5ed1da9a2736
+      internalID: -9058685090601030185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3e08e8ebb34a54b891d7221b88cc89
+      internalID: -1539895022802316127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d8c9839d9142648a075aff8c4a8e17
+      internalID: 8958995801096850643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b565f8052bb064bb285d01072c13f5
+      internalID: 3966622740040797870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_21
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d8f4cb920d78240b43b700fc8c5320
+      internalID: 5980682805776802596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_22
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bef3c0c5f5733b41ae2c39d94a9494c
+      internalID: -7242789413165797965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_23
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0a2c40da99b8c4395873e42195cb92
+      internalID: 7819492785901878762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_24
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c1a84e3cf82044c8fd5ff214995c48
+      internalID: -5972315027264043789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_25
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4601af851ada09d4c969129d94597d5b
+      internalID: -4605688131459007418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_26
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011291c80d3ff3944a1f55a167cf5d64
+      internalID: 4575422452492516661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_27
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407395cc1d6128946a4b7e3458785e68
+      internalID: 1800285650696647510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_28
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f76a4f361cb4e45a5747de170be26f
+      internalID: 5409684396327342768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_29
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be01d7b5e35d2894e9d28dd1238a0136
+      internalID: -538756171468710941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_30
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38be30c437e3b0345b1b6e2937f28d30
+      internalID: 8180314059283412561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BSOD_bot_31
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8cf23d46e676e4aae855b973472493
+      internalID: -7205891283260276887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

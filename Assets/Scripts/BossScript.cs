@@ -4,26 +4,26 @@ using UnityEngine.UI;
 public class BossScript : MonoBehaviour
 {
 
-   private float moveSpeed = 1f;
-   public float speed = 0.1f;
+   protected float moveSpeed = 1f;
+   protected float speed = 0.1f;
    private float speedOffset = 0.05f;
-   private float maxSpeed = 1.5f;
+   protected float maxSpeed = 1.75f;
    private Rigidbody2D rb2d;
    private bool goingLeft = true;
-   private int tickToSpeedup = 100;
-   private int ticks = 0;
-   public Slider hpSlider = null;
+   protected int tickToSpeedup = 100;
+   protected int ticks = 0;
+   protected Slider hpSlider = null;
 
-   private float destY = 0;
+   protected float destY = 0;
 
-   private int health = 1000;
-   private int maxHealth = 1000;
+   protected int health = 1000;
+   protected int maxHealth = 1000;
    public GameObject deathEffect;
 
    /* shooting */
-   private int ticksToShoot;
-   private int maxTicksToShoot = 100;
-   private int minTicksToShoot = 30;
+   protected int ticksToShoot;
+   protected int maxTicksToShoot = 100;
+   protected int minTicksToShoot = 40;
    /* -shooting */
 
    void Start()
@@ -34,9 +34,11 @@ public class BossScript : MonoBehaviour
       {
          hpSlider = StageManager.instance.bossHpSlider;
       }
+      hpSlider.maxValue = maxHealth;
+      hpSlider.value = health;
    }
    
-   void Update()
+   protected void Update()
    {
       float xx = speed;
       float yy = 0;
@@ -47,32 +49,7 @@ public class BossScript : MonoBehaviour
       rb2d.velocity = new Vector2(xx*moveSpeed, yy*moveSpeed);
 
       if (transform.position.x <= -3.2f && goingLeft || transform.position.x >= 3.2f && !goingLeft)
-         goingLeft = !goingLeft;
-
-      /* speedup by time */
-      if (speed < maxSpeed) // speeding up
-      {
-         ticks +=1;
-         if (ticks>=tickToSpeedup)
-         {
-            SpeedUp();
-            ticks = 0;
-         }
-      }
-      /* */
-
-      /* shooting */
-      if (ticksToShoot >0)
-         ticksToShoot -=1;
-      else if (ticksToShoot <=0 && Random.Range(0, 100) < 20)
-      {
-         if (maxTicksToShoot>minTicksToShoot)
-            maxTicksToShoot -=1;
-         ticksToShoot = maxTicksToShoot;
-         if (transform.position.y<=2.5f)
-            Shoot();
-      }
-      /* -shooting */      
+         goingLeft = !goingLeft;    
    }
 
    public virtual void Shoot()
@@ -82,7 +59,8 @@ public class BossScript : MonoBehaviour
 
    public void TakeDamage(int damage)
    {
-      Debug.Log("Takad Damage");
+      if (StageManager.instance.EnemiesLeft())
+         return;
       health -= damage;
       hpSlider.value = health;
       if (health<=0)
@@ -92,6 +70,10 @@ public class BossScript : MonoBehaviour
    void Die()
    {
       Instantiate(deathEffect, transform.position, Quaternion.identity);
+      Instantiate(deathEffect, transform.position + new Vector3(0.14f,0,0), Quaternion.identity);
+      Instantiate(deathEffect, transform.position - new Vector3(0.14f,0,0), Quaternion.identity);
+      Instantiate(deathEffect, transform.position + new Vector3(0.1f,0.1f,0), Quaternion.identity);
+      Instantiate(deathEffect, transform.position - new Vector3(0.1f,0.2f,0), Quaternion.identity);
       gameObject.SetActive(false);
       StageManager.instance.KillBoss();
       Destroy(this);
@@ -99,13 +81,16 @@ public class BossScript : MonoBehaviour
 
    public void SpeedUp()
    {
-      if (speed < maxSpeed)
+      if (moveSpeed < maxSpeed)
       {
-         speed += speedOffset;
+         moveSpeed += speedOffset;
       }
-      if (minTicksToShoot>=20){
-         maxTicksToShoot -= 20;
-         minTicksToShoot -= 20;
+      else  if (moveSpeed > maxSpeed){
+         moveSpeed = maxSpeed;
+      }
+      if (minTicksToShoot >= 30){
+         maxTicksToShoot -= 10;
+         minTicksToShoot -= 10;
       }
    }
 

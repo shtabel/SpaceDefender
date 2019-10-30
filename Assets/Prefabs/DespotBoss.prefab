@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6550693730806401391}
   - component: {fileID: 2782787988241801036}
+  - component: {fileID: 1791438058485208622}
   m_Layer: 8
   m_Name: Point Light 2D
   m_TagString: Untagged
@@ -49,7 +50,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000007105b23a
+  m_ApplyToSortingLayers: 7105b23a
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -70,6 +71,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1791438058485208622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2411622450048738804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696c11bb8062ee4409830b679d1c96ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minInternsity: 0.5
+  maxInternsity: 1
 --- !u!1 &3596350758723791320
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +134,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.5
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000007105b23a
+  m_ApplyToSortingLayers: 7105b23a
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -237,6 +252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6850098119857117775}
   - component: {fileID: 3192969566746458527}
+  - component: {fileID: 8021008168395593826}
   m_Layer: 8
   m_Name: Point Light 2D (1)
   m_TagString: Untagged
@@ -276,7 +292,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000007105b23a
+  m_ApplyToSortingLayers: 7105b23a
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -297,6 +313,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &8021008168395593826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6747771899054817776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696c11bb8062ee4409830b679d1c96ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minInternsity: 0.5
+  maxInternsity: 1
 --- !u!1 &8268197532931039865
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,12 +449,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8b732106df692f429d74e26993b3ec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  hpSlider: {fileID: 0}
   deathEffect: {fileID: 7091312619143522633, guid: b8f01353f50599647becafcb87350277,
     type: 3}
   firepoint: {fileID: 7250582350194356615}
   bombPrefab: {fileID: 3969406678182754683, guid: 122c553e1b984584781195c7a9e67801,
+    type: 3}
+  obeyPrefab: {fileID: 1745562187308642509, guid: 7a8e45d2e0d33e8449ab84be395bccdf,
+    type: 3}
+  signPrefab: {fileID: 1745562187308642509, guid: b333cc75930cc7d44bed382ff472e67c,
     type: 3}
 --- !u!58 &5977205138821465063
 CircleCollider2D:

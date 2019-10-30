@@ -41,8 +41,8 @@ public class EnemyScript : MonoBehaviour
             maxHealth = 20;
          break;
          case 2:
-            health = 40;
-            maxHealth = 40;
+            health = 30;
+            maxHealth = 30;
          break;
       }
       ticksToShoot = Random.Range(0, maxTicksToShoot);
@@ -100,6 +100,7 @@ public class EnemyScript : MonoBehaviour
    void Die()
    {
       Instantiate(deathEffect, transform.position, Quaternion.identity);
+      Instantiate(GameManager.instance.spark, transform.position, Quaternion.identity);
       gameObject.SetActive(false);
       health = maxHealth;
       speed = Random.Range(0.1f, maxSpeed);

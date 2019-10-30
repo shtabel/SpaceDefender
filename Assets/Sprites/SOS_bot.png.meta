@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: c8c9846e351527e40950947762f9662d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2101651961705929411
+    second: SOS_bot_0
+  - first:
+      213: -4099569847313643576
+    second: SOS_bot_1
+  - first:
+      213: -825069578311192315
+    second: SOS_bot_2
+  - first:
+      213: 2249628238939936361
+    second: SOS_bot_3
+  - first:
+      213: -6458478464249514979
+    second: SOS_bot_4
+  - first:
+      213: 3841229709515295574
+    second: SOS_bot_5
+  - first:
+      213: 2893386419425157932
+    second: SOS_bot_6
+  - first:
+      213: 8706007005118854663
+    second: SOS_bot_7
+  - first:
+      213: 7424076627407216793
+    second: SOS_bot_8
+  - first:
+      213: -9123188865363612692
+    second: SOS_bot_9
+  - first:
+      213: 2493814962910178572
+    second: SOS_bot_10
+  - first:
+      213: -3434416116518928166
+    second: SOS_bot_11
+  - first:
+      213: 5223515803038815803
+    second: SOS_bot_12
+  - first:
+      213: -1188418172093537634
+    second: SOS_bot_13
+  - first:
+      213: 3019092325706173482
+    second: SOS_bot_14
+  - first:
+      213: -8290250445135006031
+    second: SOS_bot_15
+  - first:
+      213: 1146831940710852621
+    second: SOS_bot_16
+  - first:
+      213: -3785377760151467771
+    second: SOS_bot_17
+  - first:
+      213: 8188376297952855534
+    second: SOS_bot_18
+  - first:
+      213: 8210046714349501430
+    second: SOS_bot_19
+  - first:
+      213: 6019100617312112736
+    second: SOS_bot_20
+  - first:
+      213: 6459005510896022053
+    second: SOS_bot_21
+  - first:
+      213: -2155651175807478535
+    second: SOS_bot_22
+  - first:
+      213: -7539183106052537749
+    second: SOS_bot_23
+  - first:
+      213: 7826457129276735006
+    second: SOS_bot_24
+  - first:
+      213: -2555465770567784055
+    second: SOS_bot_25
+  - first:
+      213: -3202512952938576713
+    second: SOS_bot_26
+  - first:
+      213: -9133677876946785849
+    second: SOS_bot_27
+  - first:
+      213: 6678817214837005468
+    second: SOS_bot_28
+  - first:
+      213: 7456011977133838337
+    second: SOS_bot_29
+  - first:
+      213: -7629236324761044116
+    second: SOS_bot_30
+  - first:
+      213: 3171690071114995359
+    second: SOS_bot_31
+  - first:
+      213: 1661967525502430483
+    second: SOS_bot_32
+  - first:
+      213: -7063128925791049229
+    second: SOS_bot_33
+  - first:
+      213: -5095172498750446011
+    second: SOS_bot_34
+  - first:
+      213: -275483988296488212
+    second: SOS_bot_35
+  - first:
+      213: 2990149767644595888
+    second: SOS_bot_36
+  - first:
+      213: -7761035914453674801
+    second: SOS_bot_37
+  - first:
+      213: -2804841849060073274
+    second: SOS_bot_38
+  - first:
+      213: 1766328473875514148
+    second: SOS_bot_39
+  - first:
+      213: -3363748760600520930
+    second: SOS_bot_40
+  - first:
+      213: 6884388052821335552
+    second: SOS_bot_41
+  - first:
+      213: -8420398221605529460
+    second: SOS_bot_42
+  - first:
+      213: 6875150192281051838
+    second: SOS_bot_43
+  - first:
+      213: 8701167656453108849
+    second: SOS_bot_44
+  - first:
+      213: -7999284201121989564
+    second: SOS_bot_45
+  - first:
+      213: -5450545789986881200
+    second: SOS_bot_46
+  - first:
+      213: -868802346630226466
+    second: SOS_bot_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SOS_bot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcb3ddfec7c6b54db1e7bae2fa67ab2
+      internalID: -2101651961705929411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc57013c88af4c459710acd1653336e
+      internalID: -4099569847313643576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c8cc71569275544807f69e3801fd12
+      internalID: -825069578311192315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623a49ebe43d3c449afd90aba908aff8
+      internalID: 2249628238939936361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664bb3117e588fa4a8188b7b7eaf4353
+      internalID: -6458478464249514979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bc5af340a74b3458f05c29960a6624
+      internalID: 3841229709515295574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49f366fb842ea54ab7aba9f77f9ba0e
+      internalID: 2893386419425157932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6794b57bac0a645478a5ef25cb21a6cd
+      internalID: 8706007005118854663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2053d22f4e4d443a507ec90fdbfe9a
+      internalID: 7424076627407216793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af497ce9d47ff54485deb85126cf9ff
+      internalID: -9123188865363612692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683fe6948bb8cdb488fe0141fdeed15b
+      internalID: 2493814962910178572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f242bae2a0bcf4abfdb38a8308f3f0
+      internalID: -3434416116518928166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_12
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37b40062df6e0e4f88f7915a9648436
+      internalID: 5223515803038815803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_13
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af7e4892a0c86c42bcb14b0fbeb6b34
+      internalID: -1188418172093537634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_14
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84795d44a42973647805be4d3adce1b8
+      internalID: 3019092325706173482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_15
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128963d12f1c3214aa5061e48e14768a
+      internalID: -8290250445135006031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb5a7558c5d5974ba7f947182b13e42
+      internalID: 1146831940710852621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_17
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f64d22b3f604cb45b67f525682136ba
+      internalID: -3785377760151467771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282b49a8e2fb0fe43a58f3155ffd043e
+      internalID: 8188376297952855534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ff9072bfd30874381de9bb8c09248e
+      internalID: 8210046714349501430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620d2b38518e1a746a18a63b7c8b681d
+      internalID: 6019100617312112736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_21
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b448a0e406d945b1718c5cb384f34
+      internalID: 6459005510896022053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_22
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61421dd72d23f7478e0e96bc15f09e1
+      internalID: -2155651175807478535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_23
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be2c69534d7e34db17b9a4991c3d26
+      internalID: -7539183106052537749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_24
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63414cd93f82f2c4992987c9191b8be5
+      internalID: 7826457129276735006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_25
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5b8a02762c6b540b7f36b669f88b16
+      internalID: -2555465770567784055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_26
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4338d0dd13dcd3c448ba89c34b333c7e
+      internalID: -3202512952938576713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_27
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e4dd80b0ff9da4882d3996d9fe098d
+      internalID: -9133677876946785849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_28
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b7b3c5545928a48b737525e51b123a
+      internalID: 6678817214837005468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_29
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb75104c663a4147883b00d6501e55a
+      internalID: 7456011977133838337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_30
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a310b47f75e874685a1c5cc0b152dd
+      internalID: -7629236324761044116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_31
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bf21816618ff24b98bed1a538b6efe
+      internalID: 3171690071114995359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_32
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bb926b86d720b45acfaab378fd1775
+      internalID: 1661967525502430483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_33
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cfe888b69db2b46a700a6c049a208d
+      internalID: -7063128925791049229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_34
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d75766f71b28e448277033806cf9f0
+      internalID: -5095172498750446011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_35
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4861e17079f97ff4e9b1c54572962356
+      internalID: -275483988296488212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_36
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df532aa9af8a3479c9f40b428761bb
+      internalID: 2990149767644595888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_37
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1453326465a76a949b7c094be5ae7bfd
+      internalID: -7761035914453674801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_38
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20ea4c1674fee4e903a9943d67dc21
+      internalID: -2804841849060073274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_39
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349991c2c55a9f0408cee4daf1d5021e
+      internalID: 1766328473875514148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff81112c2a1c42448ea9340371dcf4a
+      internalID: -3363748760600520930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_41
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a77abe679ca9bb4e944336b34a85de7
+      internalID: 6884388052821335552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_42
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b8ae0fb159c2e4eb104d2a55892fb0
+      internalID: -8420398221605529460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_43
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2eed5fbd7e5694d8a62b6031256e71
+      internalID: 6875150192281051838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_44
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf576b7662d014797ed75b51e5160d
+      internalID: 8701167656453108849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_45
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33979d2f98ab79345b5b21582a7dc58d
+      internalID: -7999284201121989564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_46
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af51cfd520fdf2243b7358c130ac2cad
+      internalID: -5450545789986881200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOS_bot_47
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 0
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c78bf7e8fa5d742bebda940582dfee
+      internalID: -868802346630226466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

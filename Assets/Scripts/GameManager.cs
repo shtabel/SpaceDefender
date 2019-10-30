@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
    public GameObject enemy;
    public GameObject enemy2;
    public GameObject[] bosses;
+   public GameObject spark;
    public PlayerScript player;
    public TextMeshProUGUI scoreLabel;
    public TextMeshProUGUI levelLabel;
@@ -51,8 +52,8 @@ public class GameManager : MonoBehaviour
    
    public void AddScore(int x)
    {
-      if (Mathf.RoundToInt(score/25) != Mathf.RoundToInt((score+x)/25))
-         player.GainHp(1);
+      //if (Mathf.RoundToInt(score/25) != Mathf.RoundToInt((score+x)/25))
+      //   player.GainHp(1);
       score +=x;
       scoreLabel.text = score.ToString();
    }
@@ -79,10 +80,12 @@ public class GameManager : MonoBehaviour
    IEnumerator NextLevel(){
       level +=1;
       yield return new WaitForSeconds(2f);
-      if (level!=4)
-         if (level == 3)
-            StageManager.instance.spawnBoss = true;
+      
+      if (level % 2 == 0)
+         StartBoss();
+      else
          StageManager.instance.InitGame(level);
+      
    }
 
    IEnumerator Restart()

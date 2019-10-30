@@ -9,7 +9,6 @@ public class StageManager : MonoBehaviour
    private int waveWidth;
    private int waveHeight;
    private float waveDensity;
-   public bool spawnBoss = false;
 
    public Slider bossHpSlider = null;
 
@@ -40,8 +39,8 @@ public class StageManager : MonoBehaviour
          RecalcOffsets();
       else
          GameManager.instance.LevelComplete();
-      if (level == 3 & enemyCount < waveHeight*waveWidth/2 && spawnBoss)
-         GameManager.instance.StartBoss();
+      //if (level == 3 & enemyCount < waveHeight*waveWidth/4 && spawnBoss)
+      //   GameManager.instance.StartBoss();
    }
 
    public void KillBoss()
@@ -62,16 +61,18 @@ public class StageManager : MonoBehaviour
    {
       //waveWidth = 0;
       //waveHeight = 0;
-      spawnBoss = false;
-      bossHpSlider.gameObject.SetActive(true);
       Instantiate(boss, new Vector3(0, 2.9f, 0f), Quaternion.identity);
    }
 
    void CreateWave()
    {
       wave = new List<List<GameObject>>();
-      waveWidth = 5+level-1;
-      waveHeight = 3+level-1;
+      waveWidth = 5+level;
+      if (waveWidth >8)
+         waveWidth = 8;
+      waveHeight = 4+level;
+      if (waveHeight>7)
+         waveHeight = 7;
       waveDensity = 6.4f/waveWidth;
       float waveOffset = 3f * (Random.Range(0,3)-1);
       for (int h=0; h < waveHeight; h++)
